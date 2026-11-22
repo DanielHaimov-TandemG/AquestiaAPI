@@ -37,6 +37,10 @@ info:
 servers:
   - url: http://localhost:5000/api
     description: Local development server (configure for your environment)
+  - url: https://iotprodfunc.azurewebsites.net/api
+    description: Stage server
+  - url: https://svpprodfunc.azurewebsites.net/api
+    description: Prod server
 tags:
   - name: Devices
     description: |
